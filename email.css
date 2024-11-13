@@ -36,19 +36,23 @@ td{
 .cell-3, .cell-12{
     background-color: antiquewhite;
     height: auto;
-    width: 25%;
+    width: 30%;
 }
 .cell-11, .cell-4{
     background-color: #a7c4e0;
     height: auto;
-    width: 65%;
+    width: 60%;
+}
+.cell-3{
+    border-width: 1px;
+    border-style: solid;
+    border-color: salmon;
 }
 
 .cell-8{
     background-color: salmon;
     width: 300px;
 }
-
 .cell-6, .cell-9{
     background-color: aquamarine;
     width: 25%;
@@ -57,4 +61,19 @@ td{
     background-color: bisque;
     height: 10vh;
     width: 75%;
+    font-size: larger;
+}
+.cell-6{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: medium;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+.cell-12{
+    border-width: 1px;
+    border-style: solid;
+    border-color: salmon;
 }

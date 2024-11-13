@@ -1,14 +1,21 @@
 *{
     margin: 0;
 }
+
+body, table, td, a {
+    text-size-adjust: 100%;
+  }
+
 .custom_header, .custom_footer{
-    width: 100vw;
+    width: 600px;
     height: 25vh;
+    margin: 0 auto;
     border-collapse: collapse;
 }
 .custom_main{
-    width: 100vw;
+    width: 600px;
     height: 50vh;
+    margin: 0 auto;
     border-collapse: collapse;
 }
 
@@ -19,30 +26,35 @@ td{
 .cell-1, .cell-5, .cell-10, .cell-14{
     background-color: #a7c4e0;
     height: auto;
-    width: 100vw;
+    width: 100%;
 }
 .cell-2, .cell-13{
     background-color: #a7c4e0;
     height: 8vh;
-    width: 10vw;
+    width: 10%;
 }
 .cell-3, .cell-12{
     background-color: antiquewhite;
     height: auto;
-    width: 25vw;
+    width: 25%;
 }
 .cell-11, .cell-4{
     background-color: #a7c4e0;
     height: auto;
-    width: 65vw;
+    width: 65%;
+}
+
+.cell-8{
+    background-color: salmon;
+    width: 300px;
 }
 
 .cell-6, .cell-9{
     background-color: aquamarine;
-    width: 25vw;
+    width: 25%;
 }
 .cell-7{
     background-color: bisque;
     height: 10vh;
-    width: auto;
+    width: 75%;
 }
